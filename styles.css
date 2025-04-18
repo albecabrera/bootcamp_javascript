@@ -1,0 +1,343 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente legible como base */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4f0; /* Un tono beige suave como fondo */
+    color: #333;
+    line-height: 1.6;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #e9d5db; /* Un tono rosa pastel suave */
+    color: #6a5a55; /* Un tono marrón suave para el texto */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Para posicionar el menú móvil absolutamente */
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive; /* Fuente con apariencia manuscrita */
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #776863;
+}
+
+/* Estilos para la navegación de escritorio */
+.desktop-nav {
+    display: none; /* Oculto por defecto en pantallas pequeñas */
+}
+
+.desktop-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.desktop-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.desktop-nav ul li a {
+    text-decoration: none;
+    color: #6a5a55;
+    transition: color 0.3s ease;
+}
+
+.desktop-nav ul li a:hover {
+    color: #544844;
+}
+
+/* Estilos para la navegación móvil */
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.hamburger-menu {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #6a5a55;
+}
+
+.mobile-nav-links {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #e9d5db;
+    z-index: 10;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.mobile-nav-links.open {
+    display: block;
+}
+
+.mobile-nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav-links ul li {
+    padding: 10px 0;
+}
+
+.mobile-nav-links ul li a {
+    text-decoration: none;
+    color: #6a5a55;
+    transition: color 0.3s ease;
+}
+
+.mobile-nav-links ul li a:hover {
+    color: #544844;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6a5a55;
+    border-bottom: 2px solid #e9d5db;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    display: block;
+    background-color: #f2b7c0; /* Otro tono rosa para los enlaces/botones */
+    color: #fff;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+section ul li a:hover {
+    background-color: #e0a1b0;
+}
+
+/* Estilos para la sección de productos */
+.producto-destacado {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.producto-destacado h3 {
+    color: #6a5a55;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.producto-destacado p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.boton-comprar {
+    display: inline-block;
+    background-color: #6a5a55;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #544844;
+}
+
+.lista-productos ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.lista-productos ul li a {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+/* Estilos para la sección sobre mí */
+#sobre-mi p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Estilos para la sección de preguntas frecuentes */
+.pregunta {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.pregunta h3 {
+    color: #6a5a55;
+    margin-bottom: 5px;
+}
+
+.pregunta p {
+    color: #555;
+}
+
+#faq a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f2b7c0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#faq a:hover {
+    color: #e0a1b0;
+}
+
+/* Estilos para el formulario de contacto */
+#contacto-form {
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6a5a55;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+#contacto-form button[type="submit"] {
+    background-color: #6a5a55;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.3s ease;
+}
+
+#contacto-form button[type="submit"]:hover {
+    background-color: #544844;
+}
+
+.contacto-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.contacto-info ul {
+    margin-top: 10px;
+}
+
+.contacto-info ul li {
+    margin-bottom: 8px;
+}
+
+.contacto-info ul li a {
+    color: #f2b7c0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contacto-info ul li a:hover {
+    color: #e0a1b0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9d5db;
+    color: #6a5a55;
+    font-size: 0.9em;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #6a5a55;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #544844;
+}
+
+/* Media query para pantallas más grandes (ej: tablets y desktops) */
+@media (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+    .desktop-nav {
+        display: block;
+    }
+}
