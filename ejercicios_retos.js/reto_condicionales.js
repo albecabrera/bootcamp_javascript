@@ -42,3 +42,4 @@ switch (nacionalidad) {
     console.log("No tienes nacionalidad ninguna");
 }
 
+
