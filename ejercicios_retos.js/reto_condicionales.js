@@ -16,5 +16,29 @@ if (edad < 18) {
 // Ejercicio 2
 // 2. Intenta escribir el código de JavaScript del programa que ves en la consola. No tiene que ser perfecto! 🧑‍💻
 
+let identificacion = false; 
+if (identificacion === true) {
+  console.log("Puedes entrar");
+} else {
+  console.log("Te quedas afuera");
+}
 
+let nacionalidad = "latina"
+
+switch (nacionalidad) {
+  case "africana":
+  console.log("Eres de nacionalidad africana");
+  break; 
+  case "europea":
+  console.log("Eres de nacionalidad europea");
+  break; 
+  case "asiática":
+  console.log("Eres de nacionalidad asiática");
+  break; 
+  case "latina":
+  console.log("Eres de nacionalidad latina");
+  break; 
+  default:
+    console.log("No tienes nacionalidad ninguna");
+}
 
