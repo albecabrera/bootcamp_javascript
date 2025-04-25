@@ -28,3 +28,37 @@ for (let pares = 0; pares <= 10; pares++) {
 }
 // 2. Intenta escribir el código de JavaScript que ves en la terminal. No tiene que ser perfecto! 🧑‍💻
 // 3. Compara tu solución con la solución incluida en los archivos descargables al inicio del curso y descubre que partes pudiste hacer de mejor manera. No te preocupes si encuentras métodos que no conocías, ya las conocerás! 🙌 Buenas habilidades! 🔥
+
+// Bucle for in
+// Este es mejor para objetos
+let traductor = {
+    bucle: 'loop',
+    lista: 'array'
+};
+
+for (let etiqueta in traductor) {
+    console.log(etiqueta);
+}
+
+// El bucle while
+let i = 0;
+
+while (i   < 100) {
+    console.log(i);
+    i++;
+}
+
+let lista = [3, 6, ,9, 23, 34]
+let numero = 0;
+while (numero < 30) {
+    numero = lista.shift();
+    console.log(numero);
+    console.log(lista);
+}
+
+// Bucle do while
+// Se utiliza muy poco. 
+do {
+    console.log('una vez');
+} while (false);
+
