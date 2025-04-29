@@ -14,7 +14,7 @@ console.log(sumar());
 console.log(sumar());
 
 
-function sumar(a,b) {
+function sumar(a,b) {   
     return a + b;
 }
 console.log(sumar(2,3));
