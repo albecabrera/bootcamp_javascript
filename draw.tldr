@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1294.7428588867188,
-			"y": 232.81991652403883,
-			"lastActivityTimestamp": 1746649099075,
+			"x": 3647.4978040556016,
+			"y": 1173.5209968463046,
+			"lastActivityTimestamp": 1746649349881,
 			"meta": {}
 		},
 		{
@@ -62,8 +62,8 @@
 					"y": 0
 				},
 				"end": {
-					"x": -31.494140625,
-					"y": -554.2263183593751
+					"x": -30.93423293522602,
+					"y": -540.8515416593365
 				},
 				"arrowheadStart": "none",
 				"arrowheadEnd": "arrow",
@@ -77,12 +77,51 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 11.57220458984375,
-			"y": -70.52969435607008,
+			"x": -41.41430796185159,
+			"y": -108.23596266661696,
 			"z": 0.25,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": 415.86122728055716,
+			"y": 596.4943141937255,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:uU236FFEq1EIBEcW7zcLv",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 2000.6279188165056,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.569634042569225,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Heute lernen wir Java. Eine Programmiersprache der Web"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:AnBGVaYRqQavc_FoK5h0T",
+			"index": "a334g",
+			"typeName": "shape"
 		},
 		{
 			"x": 2541.5491333007812,
@@ -122,27 +161,10 @@
 			"typeName": "shape"
 		},
 		{
-			"meta": {},
-			"id": "binding:euIO0FJJKdWS4g9Ubn517",
-			"type": "arrow",
-			"fromId": "shape:Na4rWczrswvWNFislIFeu",
-			"toId": "shape:3a4PyHSDs4aXQcsayZWMk",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.6846403503417968,
-					"y": 0.9702245368438269
-				},
-				"terminal": "end"
-			},
-			"typeName": "binding"
-		},
-		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:AnBGVaYRqQavc_FoK5h0T"
+				"shape:uU236FFEq1EIBEcW7zcLv"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -230,16 +252,22 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 779.1255798339844,
-			"y": 619.9472503662109,
+			"x": 418.13165283203125,
+			"y": 436.1301174163816,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:3a4PyHSDs4aXQcsayZWMk",
-			"type": "note",
+			"id": "shape:1kZf-bXSKtj7gQT2v3c21",
+			"type": "text",
 			"props": {
-				"color": "green",
+				"color": "red",
+				"size": "m",
+				"w": 723.9682006835938,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.569634042569225,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -251,24 +279,15 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Vamos a hacer una prueba "
+									"text": "Heute lernen wir Java. Eine Programmiersprache der Web"
 								}
 							]
 						}
 					]
-				},
-				"size": "m",
-				"font": "draw",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"labelColor": "black",
-				"growY": 0,
-				"fontSizeAdjustment": 22,
-				"url": "",
-				"scale": 1
+				}
 			},
-			"parentId": "page:page",
-			"index": "a1",
+			"parentId": "shape:AnBGVaYRqQavc_FoK5h0T",
+			"index": "a2B5d",
 			"typeName": "shape"
 		},
 		{
@@ -308,9 +327,11 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "blue",
-				"tldraw:geo": "check-box",
-				"tldraw:dash": "solid"
+				"tldraw:color": "red",
+				"tldraw:geo": "rectangle",
+				"tldraw:dash": "solid",
+				"tldraw:font": "mono",
+				"tldraw:textAlign": "start"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -345,7 +366,7 @@
 			"isCoarsePointer": false,
 			"isHoveringCanvas": false,
 			"openMenus": [],
-			"isChangingStyle": false,
+			"isChangingStyle": true,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
@@ -388,6 +409,45 @@
 			},
 			"parentId": "page:page",
 			"index": "a3AKI",
+			"typeName": "shape"
+		},
+		{
+			"x": 934.1004638671875,
+			"y": 3.2236232757566086,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ht8z5e84IW1hAEe-fUo2U",
+			"type": "text",
+			"props": {
+				"color": "green",
+				"size": "m",
+				"w": 65.05526733398438,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 10.81223240643402,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Hola "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:AnBGVaYRqQavc_FoK5h0T",
+			"index": "a1",
 			"typeName": "shape"
 		}
 	]
