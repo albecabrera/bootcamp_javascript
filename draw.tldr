@@ -24,21 +24,21 @@
 			"com.tldraw.shape.note": 9,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 1,
-			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.arrow": 6,
 			"com.tldraw.shape.highlight": 1,
 			"com.tldraw.shape.embed": 4,
 			"com.tldraw.shape.image": 5,
 			"com.tldraw.shape.video": 3,
-			"com.tldraw.binding.arrow": 0
+			"com.tldraw.binding.arrow": 1
 		}
 	},
 	"records": [
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 9396.186937150776,
-			"y": -2737.5702214241287,
-			"lastActivityTimestamp": 1746704036161,
+			"x": 437.3588296267312,
+			"y": -2689.6493854799564,
+			"lastActivityTimestamp": 1746863075305,
 			"meta": {}
 		},
 		{
@@ -57,19 +57,17 @@
 			"meta": {}
 		},
 		{
-			"x": 451.7677747632867,
-			"y": 3643.874466419246,
-			"z": 0.1,
+			"x": 1122.0448064721436,
+			"y": 3609.953869422705,
+			"z": 0.08538573980947183,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"editingShapeId": "shape:HaLUFKbGjUm07neVeyCkc",
+			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:HaLUFKbGjUm07neVeyCkc"
-			],
+			"selectedShapeIds": [],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -273,9 +271,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:color": "black"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -289,8 +285,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1141.2037353515625,
-				"h": 630.2083129882812
+				"w": 943.2869873046875,
+				"h": 429.2052307128906
 			},
 			"insets": [
 				false,
@@ -305,11 +301,11 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 3.4560000896453857,
+			"devicePixelRatio": 4.147200107574463,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
-			"isChangingStyle": true,
+			"isChangingStyle": false,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
